@@ -17,11 +17,11 @@ This repository contains the official code of the paper
 
 First create a conda environment
 ```
-conda env create -f Subgraphormer_environment.yml
+conda env create -f environment.yml
 ```
 and activate it
 ```
-conda activate Subgraphormer
+conda activate gf8
 ```
 
 ## Repreducability

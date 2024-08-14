@@ -25,7 +25,7 @@ logging.info(f"Loading arguments.")
 cfg_file__path = './config/config.yaml'
 cfg = u_args.load_config(path=cfg_file__path)
 cfg = u_args.override_config_with_args(cfg=cfg)
-cfg.data.dir = "./datasets/" + cfg.data.name
+cfg.data.dir = "/back-up/wsy/gfdatasets/Subgraphormer/datasets/" + cfg.data.name
 # ===================================================================================================================== #
 # ===================================               set device and seed             =================================== #
 # ===================================================================================================================== #
